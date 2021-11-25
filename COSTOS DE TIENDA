@@ -1,1 +1,10 @@
-
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+int i,j,n,m,f,c;
+int PRO [5][12],PRE[5];
+printf("ingrese los valores de unidades vendidas en cada mes\n");
+scanf("%d",&PRO [5][12]);
+printf("%d",PRO [5][12]);
+}
