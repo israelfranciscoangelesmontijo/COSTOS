@@ -1,10 +1,25 @@
+/*EXAMEN TERCER PARCIAL
+ISRAEL FRANCISCO ANGELES MONTIJO
+PROGRAMACION EN C*/
 #include<stdio.h>
-#include<conio.h>
-main()
+#include<stdlib.h>
+main(){
+int PRO [5][12],PRE[5],x=0,y=0,z=0;
+for(x=1;x<6;x++){
+
+for(y=0;y<1;y++)
 {
-int i,j,n,m,f,c;
-int PRO [5][12],PRE[5];
-printf("ingrese los valores de unidades vendidas en cada mes\n");
-scanf("%d",&PRO [5][12]);
-printf("%d",PRO [5][12]);
+
+PRO [x][y],PRE[z];
+printf("INGRESE EL PRECIO DEL PRODUCTO %d:",x,y);
+scanf("%d",&PRO [x][y]);
+}
+}
+for(x=1;x<6;x++){
+for(y=0;y<1;y++)
+{
+printf("PRECIOS: \t %d",PRO [x][y]);
+printf("\n");
+}
+}
 }
